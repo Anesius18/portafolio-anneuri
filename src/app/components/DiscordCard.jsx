@@ -2,7 +2,7 @@
 import { Link as Lenk } from "react-scroll";
 import React, { useState } from "react";
 import Link from "next/link";
-import "../styles/discordCard.css";
+import "../styles/discordcard.css";
 
 const DiscordCard = () => {
   const [roles, setRoles] = useState([]);
