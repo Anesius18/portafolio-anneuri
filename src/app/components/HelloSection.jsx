@@ -21,13 +21,13 @@ const HelloSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8  sm:text-left justify-self-start order-1 sm:order-2"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl  lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-5xl sm:text6xl lg:text-7xl  lg:leading-normal font-extrabold">
             <span className="text-transparent  bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 text-center ">
               Hola, soy{" "}
             </span>
             <br></br>
-            <div className="flex items-center ">
-            <p className="flex items-center text-blue-400 font-poppins text-4xl sm:text-5xl lg:text-7xl font-semibold leading-normal">#</p>
+            <div className="flex items-center sm:m-1">
+           
               <TypeAnimation
                 sequence={[
                   'Anneuri',
@@ -42,7 +42,7 @@ const HelloSection = () => {
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}
-                style={{ whiteSpace: "nowrap" }} 
+                className="whitespace-pre-line"
 
               />
             </div>
